@@ -206,6 +206,7 @@ body.locked {
 .main__item {
   border-radius: 16px;
   padding: 24px 16px;
+  height: 200px;
   background: rgba(255, 255, 255, 0.05);
 }
 
