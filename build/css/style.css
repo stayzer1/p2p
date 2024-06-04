@@ -139,6 +139,27 @@ body.locked {
   padding-bottom: 20px;
 }
 
+.img-abs {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 12;
+}
+
+.img-abs-second {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 14;
+}
+
+.img-abs-third {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 .main__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -343,6 +364,14 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+
+  .img-abs-second {
+    display: none;
+  }
+
+  .img-abs-third {
+    display: block;
   }
 
   .image {
