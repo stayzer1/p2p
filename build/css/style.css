@@ -127,14 +127,15 @@ body.locked {
 
 .main__body {
   background: url(../img/bkg.png) center center/cover no-repeat;
+}
+
+.main-container {
+  overflow: hidden;
   padding-left: 60px;
   padding-right: 60px;
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-}
-
-section {
   position: relative;
 }
 
@@ -326,19 +327,25 @@ footer {
 
 @media screen and (max-width: 1920px) {
   .img-abs-second {
-    left: -23%;
+    left: 0;
+    bottom: 0;
   }
 }
 
 @media screen and (max-width: 1650px) {
   .img-abs-second {
-    left: -13%;
+    left: 0;
   }
 }
 
 @media screen and (max-width: 1450px) {
-  .main__body {
+  .main-container {
     max-width: 1200px;
+  }
+
+  .img-abs-second {
+    bottom: -10%;
+    left: -25%;
   }
 }
 
@@ -349,6 +356,11 @@ footer {
 }
 
 @media screen and (max-width: 1368px) {
+  .img-abs-second {
+    bottom: -110px;
+    left: -30%;
+  }
+
   .main__subtitle {
     padding-bottom: 20px;
   }
@@ -362,7 +374,7 @@ footer {
   }
 
   .img-abs-2 {
-    right: 1100px;
+    right: 1085px;
   }
 
   .img-abs-3 {
@@ -385,7 +397,7 @@ footer {
     padding-top: 16px;
   }
 
-  .main__body {
+  .main-container {
     padding: 0;
   }
 
@@ -464,7 +476,7 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
-  .main__body {
+  .main-container {
     max-width: 970px;
   }
 }
@@ -474,7 +486,7 @@ footer {
     width: 100%;
   }
 
-  section {
+  .main-container {
     overflow: hidden;
   }
 
@@ -583,7 +595,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .main__body {
+  section {
     max-width: none;
   }
 }
