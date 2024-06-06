@@ -177,7 +177,7 @@ section {
 .img-abs-second {
   position: absolute;
   left: -7%;
-  bottom: 0;
+  bottom: -4%;
   z-index: 14;
 }
 

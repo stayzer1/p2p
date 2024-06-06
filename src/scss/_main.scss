@@ -44,7 +44,7 @@ section {
 .img-abs-second {
   position: absolute;
   left: -7%;
-  bottom: 0;
+  bottom: -4%;
   z-index: 14;
 }
 .img-abs-5 {
@@ -155,15 +155,15 @@ section {
   background: transparent;
   color: #fff;
 }
-@media screen and (max-width:1920px) {
-    .img-abs-second {
-        left: -23%;
-    }
+@media screen and (max-width: 1920px) {
+  .img-abs-second {
+    left: -23%;
+  }
 }
-@media screen and (max-width:1650px) {
-    .img-abs-second {
-        left: -13%;
-    }
+@media screen and (max-width: 1650px) {
+  .img-abs-second {
+    left: -13%;
+  }
 }
 @media screen and (max-width: 1450px) {
   .main__body {
