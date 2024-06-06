@@ -129,6 +129,7 @@ body.locked {
 
 .main__body {
   background: url(../img/bkg.png) center center/cover no-repeat;
+  min-height: 100vh;
 }
 
 .main-container {
@@ -137,7 +138,8 @@ body.locked {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  height: 850px;
+  height: 866px;
+  min-height: 100vh;
   position: relative;
 }
 
@@ -146,7 +148,6 @@ section {
   /* Добавляем позиционирование */
   overflow: hidden;
   /* Обрезаем дочерние элементы, выходящие за пределы */
-  min-height: 83vh;
 }
 
 .main {
