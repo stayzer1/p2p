@@ -132,7 +132,6 @@ body.locked {
 }
 
 .main-container {
-  height: 100vh;
   padding-left: 60px;
   padding-right: 60px;
   max-width: 1440px;
@@ -150,7 +149,6 @@ section {
 }
 
 .main {
-  height: 100%;
   position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -214,7 +212,6 @@ section {
 }
 
 .main__wrapper {
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -339,14 +336,14 @@ footer {
 
 @media screen and (max-width: 1920px) {
   .img-abs-second {
-    left: 0;
+    left: -20px;
     bottom: 0;
   }
 }
 
 @media screen and (max-width: 1650px) {
   .img-abs-second {
-    left: 0;
+    left: -50px;
   }
 }
 
@@ -356,7 +353,7 @@ footer {
   }
 
   .img-abs-second {
-    left: 0;
+    left: -106px;
   }
 }
 
