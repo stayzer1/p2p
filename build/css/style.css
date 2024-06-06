@@ -234,7 +234,7 @@ section {
   font-weight: 500;
   font-size: clamp(1rem, 0.907rem + 0.381vw, 1.25rem);
   color: #e6e6e6;
-  padding-bottom: clamp(3.125rem, 1.964rem + 4.762vw, 6.25rem);
+  padding-bottom: 20px;
   width: 100%;
 }
 
@@ -295,7 +295,7 @@ section {
   font-size: 20px;
   max-width: 252px;
   color: #160c4c;
-  margin-top: 40px;
+  margin-top: 20px;
   display: block;
   -webkit-transition: 0.3s all ease-in;
   -o-transition: 0.3s all ease-in;
