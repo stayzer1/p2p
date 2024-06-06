@@ -5,7 +5,7 @@
   // overflow: hidden;
 }
 .main-container {
-
+  height: 100%;
   padding-left: 60px;
   padding-right: 60px;
   max-width: 1440px;
@@ -14,11 +14,12 @@
   position: relative;
 }
 section {
-    position: relative; /* Добавляем позиционирование */
-    overflow: hidden; /* Обрезаем дочерние элементы, выходящие за пределы */
-    min-height: 100vh;
+  position: relative; /* Добавляем позиционирование */
+  overflow: hidden; /* Обрезаем дочерние элементы, выходящие за пределы */
+  min-height: 100vh;
 }
 .main {
+  height: 100%;
   position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -49,11 +50,10 @@ section {
   top: 60%;
 }
 .img-abs-second {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 14;
-
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 14;
 }
 .img-abs-5 {
   position: absolute;
@@ -73,6 +73,7 @@ section {
   z-index: 1;
 }
 .main__wrapper {
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

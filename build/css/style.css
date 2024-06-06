@@ -132,6 +132,7 @@ body.locked {
 }
 
 .main-container {
+  height: 100%;
   padding-left: 60px;
   padding-right: 60px;
   max-width: 1440px;
@@ -149,6 +150,7 @@ section {
 }
 
 .main {
+  height: 100%;
   position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -212,6 +214,7 @@ section {
 }
 
 .main__wrapper {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
