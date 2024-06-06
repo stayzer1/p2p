@@ -5,13 +5,18 @@
   // overflow: hidden;
 }
 .main-container {
-  overflow: hidden;
+
   padding-left: 60px;
   padding-right: 60px;
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   position: relative;
+}
+section {
+    position: relative; /* Добавляем позиционирование */
+    overflow: hidden; /* Обрезаем дочерние элементы, выходящие за пределы */
+    min-height: 100vh;
 }
 .main {
   position: relative;
@@ -44,10 +49,11 @@
   top: 60%;
 }
 .img-abs-second {
-  position: absolute;
-  left: -7%;
-  bottom: -4%;
-  z-index: 14;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 14;
+
 }
 .img-abs-5 {
   position: absolute;
@@ -166,6 +172,7 @@
 @media screen and (max-width: 1650px) {
   .img-abs-second {
     left: 0;
+    // bottom: -83px;
   }
 }
 @media screen and (max-width: 1450px) {
@@ -173,20 +180,20 @@
     max-width: 1200px;
   }
   .img-abs-second {
-    bottom: -10%;
-    left: -25%;
+    // bottom: -84px;
+    left: 0;
   }
 }
 @media screen and (max-width: 1368px) {
   .img-abs-second {
-    bottom: -110px;
-    left: -30%;
+    // bottom: -110px;
+    // left: -30%;
   }
   .main__subtitle {
     padding-bottom: 20px;
   }
   .img-abs-second {
-    left: -7%;
+    // left: -7%;
   }
   .img-abs-1 {
     right: 760px;

@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
   padding: 0px;
   margin: 0px;
@@ -130,13 +132,20 @@ body.locked {
 }
 
 .main-container {
-  overflow: hidden;
   padding-left: 60px;
   padding-right: 60px;
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   position: relative;
+}
+
+section {
+  position: relative;
+  /* Добавляем позиционирование */
+  overflow: hidden;
+  /* Обрезаем дочерние элементы, выходящие за пределы */
+  min-height: 100vh;
 }
 
 .main {
@@ -177,8 +186,8 @@ body.locked {
 
 .img-abs-second {
   position: absolute;
-  left: -7%;
-  bottom: -4%;
+  bottom: 0;
+  left: 0;
   z-index: 14;
 }
 
@@ -344,8 +353,7 @@ footer {
   }
 
   .img-abs-second {
-    bottom: -10%;
-    left: -25%;
+    left: 0;
   }
 }
 
@@ -356,17 +364,8 @@ footer {
 }
 
 @media screen and (max-width: 1368px) {
-  .img-abs-second {
-    bottom: -110px;
-    left: -30%;
-  }
-
   .main__subtitle {
     padding-bottom: 20px;
-  }
-
-  .img-abs-second {
-    left: -7%;
   }
 
   .img-abs-1 {
