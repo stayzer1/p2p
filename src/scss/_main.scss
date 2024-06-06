@@ -155,6 +155,16 @@ section {
   background: transparent;
   color: #fff;
 }
+@media screen and (max-width:1920px) {
+    .img-abs-second {
+        left: -23%;
+    }
+}
+@media screen and (max-width:1650px) {
+    .img-abs-second {
+        left: -13%;
+    }
+}
 @media screen and (max-width: 1450px) {
   .main__body {
     max-width: 1200px;
@@ -163,6 +173,9 @@ section {
 @media screen and (max-width: 1368px) {
   .main__subtitle {
     padding-bottom: 20px;
+  }
+  .img-abs-second {
+    left: -7%;
   }
   .img-abs-1 {
     right: 760px;
