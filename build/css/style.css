@@ -132,7 +132,7 @@ body.locked {
 }
 
 .main-container {
-  height: 100%;
+  height: 100vh;
   padding-left: 60px;
   padding-right: 60px;
   max-width: 1440px;
