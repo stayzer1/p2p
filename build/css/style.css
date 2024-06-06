@@ -137,7 +137,7 @@ body.locked {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  height: 806px;
+  height: 850px;
   position: relative;
 }
 
@@ -213,7 +213,7 @@ section {
 }
 
 .main__wrapper {
-  height: 650px;
+  height: 690px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
