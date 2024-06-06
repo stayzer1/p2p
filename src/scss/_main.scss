@@ -16,18 +16,21 @@
 section {
   position: relative; /* Добавляем позиционирование */
   overflow: hidden; /* Обрезаем дочерние элементы, выходящие за пределы */
-  min-height: 100vh;
+  min-height: 83vh;
 }
 .main {
   position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .img-abs-1 {
   position: absolute;
   right: 900px;
-  top: -9%;
+  top: 0;
   z-index: 20;
 }
 .img-abs-2 {
@@ -37,6 +40,7 @@ section {
 .img-abs-3 {
   position: absolute;
   left: -200px;
+  top: 35%;
 }
 .img-abs {
   position: absolute;
@@ -46,8 +50,8 @@ section {
 }
 .img-abs-4 {
   position: absolute;
-  left: -350px;
-  top: 60%;
+  left: -381px;
+  top: 49%;
 }
 .img-abs-second {
   position: absolute;
@@ -57,13 +61,13 @@ section {
 }
 .img-abs-5 {
   position: absolute;
-  left: -540px;
-  top: 70%;
+  left: -597px;
+  top: 65%;
 }
 .img-abs-6 {
   position: absolute;
   left: -350px;
-  top: 100%;
+  top: 83%;
 }
 .image-abs {
   display: none;
@@ -73,7 +77,7 @@ section {
   z-index: 1;
 }
 .main__wrapper {
-    height: 720px;
+    height: 100%;
   display: flex;
   align-items: baseline;
   flex-direction: column;
@@ -103,7 +107,7 @@ section {
   font-weight: 500;
   font-size: clamp(1rem, 0.907rem + 0.381vw, 1.25rem);
   color: #e6e6e6;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   width: 100%;
 }
 .main__items {
@@ -157,7 +161,7 @@ section {
   color: #160c4c;
   margin-top: 20px;
   display: block;
-  margin-top: auto;
+  margin-top: 70px;
   transition: 0.3s all ease-in;
 }
 .main--link:hover {
